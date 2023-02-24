@@ -1,0 +1,103 @@
+---
+name: Raymond U. Infante Rosa
+surname: 
+position: "MSc. Student, Biological Oceanography"
+address: "University of Puerto Rico, Mayaguez Campus"
+phone:
+www: raymondinfante.netlify.app/
+email: "raymond.infante@upr.edu"
+twitter: 
+github: RaymondInfante
+linkedin: 
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "MSc. Biological Oceanography", "2021-present", "University of Puerto Rico, Mayaguez campus", "Mayaguez, Puerto Rico",
+  "BS.Biology", "2016-2020", "University of Puerto Rico, Aguadilla Campus", "Aguadilla, Puerto Rico",
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Professional Experience
+
+```{r}
+library(tibble)
+tribble(
+  ~ Type, ~ Year, ~ Desc, 
+  "Work on tracking Sargassum using Remote Sensing, as analyzing it InSitu. Aditionally I'm in charge of analysis the data from InSitu equipments such as: GER1500, EXO1, Solar Light, Eureka", "2022-Present", "NASA MUREP",
+  "Graduate Internship funded by NOAA EPP/MSI: Learned to use Remote Sensing tecnologies to track Pelagic Sargassum as to collect for the study of the microplastic. I also Attended meeting and semminars offered by NOAA EPP/MSI. Finally I got an introduction for analyzing data via coding in R as utilizing SNAP software", "2022", "NOAA Cooperative Science Center in Atmospheric Science and Meteorology (NCAS-M) Fellow",
+  "In charge of: Marshsalling airplane, loadind/unloading baggage, pushback and cleaning ", "2021", "Ramp Agent, Wester Aviation ",
+) %>% 
+  detailed_entries(Type, Year, Desc)
+```
+```
+
+# Research Experience
+
+```{r}
+library(tibble)
+tribble(
+  ~ Type, ~ Year, ~ Desc, 
+  "This research is implementing Ocean Color algorithms for Planet SuperDove Sattelites. For further analyses on Coastal Ocean Color studies.","2022-Present","Ocean Color with Planet Scope",
+  "This research is trying to answer if Pelagic Sargassum (*natans* and *fluitas*) can increase microplastic concentrations on superficial water.","2022-Present","Possible contamination of Microplastics due to Pelagic Sargassum",
+  "We were in charge of conducting two type of census (linear transect and circular observations), measuring and quantifying *Lobatus gigas*, for further analyses on the best methodology for studying *Lobatus gigas* ", "2022", "*Lobatus gigas* Queen Conch Project",
+  "We Counted *Phaethon lepturus* for the annual census of this species in the Caribbean", "2020", "Counting *Phaethon lepturus* in the cliffs of Quebradilla Puerto Rico",
+  "We Conclude that the uses of coastal plants, helps the Sand Dune to harden, consequently protecting coastal houses. ", "2019", "Using Coastline Plant to Protect and Harden Sand Dunes ",
+) %>% 
+  detailed_entries(Type, Year, Desc)
+```
+
+# Certifications
+
+```{r}
+library(tibble)
+tribble(
+  ~ Type, ~ Year, ~ Desc, 
+  "","2022-Present","FAA part 107 Drone Pilot certificate",
+  "","2022-Present","Diver First Aid SSI",
+  "", "2022-Present", "Nitrox Diver",
+  "Deep Dive, Advance Buoyancy, Underwater Navigation, Boat Diving, Computer Diving", "2022-Present", "Advance Diver",
+  "", "2022-Present", "DRNA Navigation License ",
+) %>% 
+  detailed_entries(Type, Year, Desc)
+```
+
+# Associations 
+
+```{r}
+library(tibble)
+tribble(
+  ~ Type, ~ Year, ~ Desc, 
+  "Asociation Treasurer", "2022-Present", "Asociacion de Estudiantes de Ciencias Marinas (AECiMa)",
+  "Vocal", "2022-Present", "Asociacion de Estudiantes de Ciencias Marinas (AECiMa) ",
+) %>% 
+  detailed_entries(Type, Year, Desc)
+```
+
+# Skills
+
+```{r}
+library(tibble)
+tribble(
+  ~ Type, ~ Year, ~ Desc, 
+  "Image Processing using: Seadas, SNAP, Qgis, Acolite","2022-Present","Remote Sensing Data Analysis",
+  "Data Analysis using: Base R, Tidyverse, Rmarkdown","2022-Present","R Programming Data Annalist",
+  "Drone Photography, Photo Mosaics", "2022-Present", "Aerial and Underwater Photographer",
+  "Deep Dive, Advance Buoyancy, Underwater Navigation, Boat Diving, Computer Diving", "2022-Present", "Advance Diver ",
+) %>% 
+  detailed_entries(Type, Year, Desc)
+```
