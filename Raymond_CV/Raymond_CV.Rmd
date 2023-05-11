@@ -72,6 +72,12 @@ tribble(
   "", "2022-Present", "Nitrox Diver",
   "Deep Dive, Advance Buoyancy, Underwater Navigation, Boat Diving, Computer Diving", "2022-Present", "Advance Diver",
   "", "2022-Present", "DRNA Navigation License ",
+  "Mar-Navigation Academy","2022","Navigation Skills and Safety Course",
+  "Certificate of Participation","2021","Marine Debris: Challenge and Opportunity",
+  "Certificate of Participation","2021","Tools for the Management of Marine Resources of Puerto Rico",
+  "Certificate of Participation","2021","Marine Science and Public Health",
+  "University of Puerto Rico, Aguadilla Campus","2021","XX Undergraduate Research Symposium",
+  "","2021","MSEIP Undergraduate Mentored Student",
 ) %>% 
   detailed_entries(Type, Year, Desc)
 ```
@@ -95,9 +101,10 @@ library(tibble)
 tribble(
   ~ Type, ~ Year, ~ Desc, 
   "Image Processing using: Seadas, SNAP, Qgis, Acolite","2022-Present","Remote Sensing Data Analysis",
-  "Data Analysis using: Base R, Tidyverse, Rmarkdown","2022-Present","R Programming Data Annalist",
+  "Data Analysis using: Base R, Tidyverse, Rmarkdown","2022-Present","R Programming Data Analyst",
   "Drone Photography, Photo Mosaics", "2022-Present", "Aerial and Underwater Photographer",
   "Deep Dive, Advance Buoyancy, Underwater Navigation, Boat Diving, Computer Diving", "2022-Present", "Advance Diver ",
+  "Use Affinity Photo for editing, color grading and Color correction. \n Uses Davinci Resolve for video editing ","2022-Present","Photo and Video Editing",
 ) %>% 
   detailed_entries(Type, Year, Desc)
 ```
