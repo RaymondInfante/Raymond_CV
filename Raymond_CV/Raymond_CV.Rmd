@@ -8,7 +8,7 @@ www: raymondinfante.netlify.app/
 email: "raymond.infante@upr.edu"
 twitter: 
 github: RaymondInfante
-linkedin: 
+linkedin: www.linkedin.com/in/raymond-infante-2b5752278/
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
   vitae::awesomecv:
@@ -38,6 +38,8 @@ tribble(
 library(tibble)
 tribble(
   ~ Type, ~ Year, ~ Desc, 
+  "Maintanence of equipment and Algae Farm. Algae Measurement and Water Quality Analysis. Hydrophones and Temperature censors deployment","September 2023 - Present","MacroAlgae Farm Technician - CARICOOS - Marine Biological Laboratories",
+  "Analyze Hydrophones data, and quantifyed the calls from Red Hind, Nassau, Black and Yellowfin Groupers. SCUBA diving census of Nassau Groupers","June 2023 - Present","BioAcoustic Technician - Isla Mar",
   "Work on tracking Sargassum using Remote Sensing, as analyzing it InSitu. Aditionally I'm in charge of analysis the data from InSitu equipments such as: GER1500, EXO1, Solar Light, Eureka", "2022-Present", "NASA MUREP",
   "Graduate Internship funded by NOAA EPP/MSI: Learned to use Remote Sensing tecnologies to track Pelagic Sargassum as to collect for the study of the microplastic. I also Attended meeting and semminars offered by NOAA EPP/MSI. Finally I got an introduction for analyzing data via coding in R as utilizing SNAP software", "2022", "NOAA Cooperative Science Center in Atmospheric Science and Meteorology (NCAS-M) Fellow",
   "In charge of: Marshsalling airplane, loadind/unloading baggage, pushback and cleaning ", "2021", "Ramp Agent, Wester Aviation ",
@@ -52,9 +54,11 @@ tribble(
 library(tibble)
 tribble(
   ~ Type, ~ Year, ~ Desc, 
+  "In this Research I learned and worked on Manage and Maintain hydrophones as well to analyze the recording. At the same time I analyzed 2023 hydrophones Spectograms, from January to April 2023, determining the presence of four important Groupers (Red Hind, Nassau, Black and Yellowfin).  ","June-September 2023","Bioacoustic-Technician",
   "This research is implementing Ocean Color algorithms for Planet SuperDove Sattelites. For further analyses on Coastal Ocean Color studies.","2022-Present","Ocean Color with Planet Scope",
-  "This research is trying to answer if Pelagic Sargassum (*natans* and *fluitas*) can increase microplastic concentrations on superficial water.","2022-Present","Possible contamination of Microplastics due to Pelagic Sargassum",
+  "This research is trying to answer if it exist a coastal gradient concentration of microplastics in La Parguera Reserve, P.R.","2022-Present","Microplastics Coastal Contamination Gradient in La Parguera P.R.",
   "We were in charge of conducting two type of census (linear transect and circular observations), measuring and quantifying *Lobatus gigas*, for further analyses on the best methodology for studying *Lobatus gigas* ", "2022", "*Lobatus gigas* Queen Conch Project",
+  "In this project we used the Open Acoustic Audio Moth recorder, to analyse the Avifauna on Guajataca Forest","2020","Using Automated Digital Recordings to Monitor the Avifauna of Guajataca State Forest",
   "We Counted *Phaethon lepturus* for the annual census of this species in the Caribbean", "2020", "Counting *Phaethon lepturus* in the cliffs of Quebradilla Puerto Rico",
   "We Conclude that the uses of coastal plants, helps the Sand Dune to harden, consequently protecting coastal houses. ", "2019", "Using Coastline Plant to Protect and Harden Sand Dunes ",
 ) %>% 
@@ -67,13 +71,16 @@ tribble(
 library(tibble)
 tribble(
   ~ Type, ~ Year, ~ Desc, 
-  "","2022-Present","FAA part 107 Drone Pilot certificate",
+  "Foundations of Data, Asking Questions for Data Analysis","2023","Google Certificate",
+  "Learned Basic Python for Data Analysis","2023","Python Kaggle",
+  "Commercial license","2022-Present","FAA part 107 Drone Pilot certificate",
   "","2022-Present","Diver First Aid SSI",
-  "", "2022-Present", "Nitrox Diver",
+  "32% and 36% mixtures", "2022-Present", "Nitrox Diver",
   "Deep Dive, Advance Buoyancy, Underwater Navigation, Boat Diving, Computer Diving", "2022-Present", "Advance Diver",
   "", "2022-Present", "DRNA Navigation License ",
   "Mar-Navigation Academy","2022","Navigation Skills and Safety Course",
   "Certificate of Participation","2021","Marine Debris: Challenge and Opportunity",
+  "Mentor for MSEIP students in the University of Puerto Rico, Aguadilla Campus","2021","Minority Science and Engineering Program",
   "Certificate of Participation","2021","Tools for the Management of Marine Resources of Puerto Rico",
   "Certificate of Participation","2021","Marine Science and Public Health",
   "University of Puerto Rico, Aguadilla Campus","2021","XX Undergraduate Research Symposium",
@@ -88,8 +95,21 @@ tribble(
 library(tibble)
 tribble(
   ~ Type, ~ Year, ~ Desc, 
-  "Asociation Treasurer", "2022-Present", "Asociacion de Estudiantes de Ciencias Marinas (AECiMa)",
-  "Vocal", "2022-Present", "Asociacion de Estudiantes de Ciencias Marinas (AECiMa) ",
+  "Vice-President","2023-Present","Asociacion de Estudiantes de Ciencias Marinas (AECiMa)",
+  "Asociation Treasurer", "2022-2023", "Asociacion de Estudiantes de Ciencias Marinas (AECiMa)",
+  "Vocal", "2022", "Asociacion de Estudiantes de Ciencias Marinas (AECiMa) ",
+) %>% 
+  detailed_entries(Type, Year, Desc)
+```
+
+# Voluntering 
+
+```{r}
+library(tibble)
+tribble(
+  ~ Type, ~ Year, ~ Desc, 
+"Clean Coral Nursery, Coral Fragging, Sea Urchins Mats Retreivals, Locate and gather Green Algae (Sea lettuce)","2023","ISER Caribe",
+"Identidied and Evidenced the reasons the Coccoloba uvifera were dying. And helped build a Wooden Bridge to protect the Sand Dunes in Isabela P.R. ","2021","Vida Marina",
 ) %>% 
   detailed_entries(Type, Year, Desc)
 ```
@@ -100,11 +120,15 @@ tribble(
 library(tibble)
 tribble(
   ~ Type, ~ Year, ~ Desc, 
-  "Image Processing using: Seadas, SNAP, Qgis, Acolite","2022-Present","Remote Sensing Data Analysis",
-  "Data Analysis using: Base R, Tidyverse, Rmarkdown","2022-Present","R Programming Data Analyst",
-  "Drone Photography, Photo Mosaics", "2022-Present", "Aerial and Underwater Photographer",
-  "Deep Dive, Advance Buoyancy, Underwater Navigation, Boat Diving, Computer Diving", "2022-Present", "Advance Diver ",
-  "Use Affinity Photo for editing, color grading and Color correction. \n Uses Davinci Resolve for video editing ","2022-Present","Photo and Video Editing",
+  "Mentoring, guiding and organizing events for Academia","","Leadership",
+  "Underwater and Terrestrial scientific Sampling","","Fieldwork",
+  "Teaching Environmental Science, Marine Science, Meterology, Data Science Topics, Remote Sensing Topics ","","Teaching",
+  "Image Processing using: Seadas, SNAP, Qgis, Acolite","","Remote Sensing Data Analysis",
+  "Data Analysis using: Base R, Tidyverse, Rmarkdown, Quarto, TidyModels (Machine learning)","","R Programming Data Analyst",
+  "Basics on Numpy, Pandas, Matplotlib, Seaborn","","Python Data Analysis ",
+  "Drone Photography, Photo Mosaics", "", "Aerial and Underwater Photographer",
+  "Deep Dive, Advance Buoyancy, Underwater Navigation, Boat Diving, Computer Diving", "", "Advance Diver ",
+  "Use Affinity Photo for editing, color grading and Color correction. \n Uses Davinci Resolve for video editing ","","Photo and Video Editing",
 ) %>% 
   detailed_entries(Type, Year, Desc)
 ```
