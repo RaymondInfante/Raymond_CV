@@ -38,8 +38,9 @@ tribble(
 library(tibble)
 tribble(
   ~ Type, ~ Year, ~ Desc, 
-  "Maintanence of equipment and Algae Farm. Algae Measurement and Water Quality Analysis. Hydrophones and Temperature censors deployment","September 2023 - Present","MacroAlgae Farm Technician - CARICOOS - Marine Biological Laboratories",
-  "Analyze Hydrophones data, and quantifyed the calls from Red Hind, Nassau, Black and Yellowfin Groupers. SCUBA diving census of Nassau Groupers","June 2023 - Present","BioAcoustic Technician - Isla Mar",
+  "Work with company such as EMC LLC to analyse Spatial data using vector and raster data","2023-Present","Independent Contractor for Spatial Analysis",
+  "Maintanence of equipment and Algae Farm. Algae Measurement and Water Quality Analysis. Hydrophones and Temperature censors deployment","September 2023 - December 2023","MacroAlgae Farm Technician - CARICOOS - Marine Biological Laboratories",
+  "Analyze Hydrophones data, and quantifyed the calls from Red Hind, Nassau, Black and Yellowfin Groupers. SCUBA diving census of Nassau Groupers. QA/QC of RUV and Hydrophones deployment. Data managing","June 2023 - Present","BioAcoustic Technician - Isla Mar",
   "Work on tracking Sargassum using Remote Sensing, as analyzing it InSitu. Aditionally I'm in charge of analysis the data from InSitu equipments such as: GER1500, EXO1, Solar Light, Eureka", "2022-Present", "NASA MUREP",
   "Graduate Internship funded by NOAA EPP/MSI: Learned to use Remote Sensing tecnologies to track Pelagic Sargassum as to collect for the study of the microplastic. I also Attended meeting and semminars offered by NOAA EPP/MSI. Finally I got an introduction for analyzing data via coding in R as utilizing SNAP software", "2022", "NOAA Cooperative Science Center in Atmospheric Science and Meteorology (NCAS-M) Fellow",
   "In charge of: Marshsalling airplane, loadind/unloading baggage, pushback and cleaning ", "2021", "Ramp Agent, Wester Aviation ",
@@ -95,6 +96,7 @@ tribble(
 library(tibble)
 tribble(
   ~ Type, ~ Year, ~ Desc, 
+  "President","2024-Present","Asociacion de Estudiantes de Ciencias Marinas (AECiMa)",
   "Vice-President","2023-Present","Asociacion de Estudiantes de Ciencias Marinas (AECiMa)",
   "Asociation Treasurer", "2022-2023", "Asociacion de Estudiantes de Ciencias Marinas (AECiMa)",
   "Vocal", "2022", "Asociacion de Estudiantes de Ciencias Marinas (AECiMa) ",
@@ -108,6 +110,7 @@ tribble(
 library(tibble)
 tribble(
   ~ Type, ~ Year, ~ Desc, 
+  "Apply treatment for Stony Coral Tissue Loss Disease on Corals from the West of Puerto Rico","2024-Present","Equipo de Respuesta a Emergencias de Arrecifes (EREA 2.0)",
 "Clean Coral Nursery, Coral Fragging, Sea Urchins Mats Retreivals, Locate and gather Green Algae (Sea lettuce)","2023","ISER Caribe",
 "Identidied and Evidenced the reasons the Coccoloba uvifera were dying. And helped build a Wooden Bridge to protect the Sand Dunes in Isabela P.R. ","2021","Vida Marina",
 ) %>% 
@@ -124,9 +127,11 @@ tribble(
   "Underwater and Terrestrial scientific Sampling","","Fieldwork",
   "Teaching Environmental Science, Marine Science, Meterology, Data Science Topics, Remote Sensing Topics ","","Teaching",
   "Image Processing using: Seadas, SNAP, Qgis, Acolite","","Remote Sensing Data Analysis",
+  "Analyzing Raster and Vector data using QGIS, SNAP and R","","Geographic Information System",
   "Data Analysis using: Base R, Tidyverse, Rmarkdown, Quarto, TidyModels (Machine learning)","","R Programming Data Analyst",
   "Basics on Numpy, Pandas, Matplotlib, Seaborn","","Python Data Analysis ",
   "Drone Photography, Photo Mosaics", "", "Aerial and Underwater Photographer",
+  "","2023-Present","SDI - Rescue Diver",
   "Deep Dive, Advance Buoyancy, Underwater Navigation, Boat Diving, Computer Diving", "", "Advance Diver ",
   "Use Affinity Photo for editing, color grading and Color correction. \n Uses Davinci Resolve for video editing ","","Photo and Video Editing",
 ) %>% 
